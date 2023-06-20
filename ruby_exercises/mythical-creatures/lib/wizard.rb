@@ -11,7 +11,7 @@ class Wizard
     end
 
     def incantation(string)
-        "sudo ".concat(string)
+        "sudo " << string
     end
 
     def rested?

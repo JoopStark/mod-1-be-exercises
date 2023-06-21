@@ -20,9 +20,6 @@ class Ogre
     def apologize(poor_guy)
         poor_guy.wakes
     end
-
-
-
 end
 
 
@@ -42,6 +39,7 @@ class Human
             @notices_ogre = true 
             the_ogre.swing_at(self)
          else
+            @notices_ogre = false
         end
     end
 
